@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Basic Form</title>
+  </head>
+
+  <body>
+    <form class="form">
+      <h1 class="form__title">GeeksforGeeks Survey Form</h1>
+
+      <div class="form__container">
+        <div class="form__text">
+          <input
+            type="text"
+            class="form__input form__name"
+            id="name"
+            placeholder=" "
+          />
+          <label for="name" class="form__label">Name:</label>
+          <span class="form__line"></span>
+        </div>
+        <div class="form__text">
+          <input
+            type="email"
+            class="form__input form__email"
+            id="email"
+            placeholder=" "
+          />
+          <label for="email" class="form__label">Email:</label>
+          <span class="form__line"></span>
+        </div>
+        <div class="form__text">
+          <input
+            type="number"
+            class="form__input form__age"
+            id="age"
+            placeholder=" "
+          />
+          <label for="age" class="form__label">Age:</label>
+          <span class="form__line"></span>
+        </div>
+        <div class="form__group">
+          <p class="form__paragraph" for="option">
+            Which best option describes you?
+          </p>
+          <p>
+            <select name="option" id="option">
+              <option value="Student">Student</option>
+              <option value="Unemployed">Unemployed</option>
+              <option value="Employee">Employee</option>
+              <option value="Programmer">Programmer</option>
+            </select>
+          </p>
+        </div>
+
+        <div class="form__group">
+          <p class="form__paragraph">Would you recommend this site</p>
+          <div class="form__radio">
+            <input type="radio" id="yes" name="recommended" value="Yes" />
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="recommended" value="No" />
+            <label for="no">No</label>
+            <input type="radio" id="maybe" name="recommended" value="Maybe" />
+            <label for="Maybe">Maybe</label>
+          </div>
+        </div>
+
+        <div class="form__group form__cbox">
+          <p class="form__paragraph">
+            Language and Frameworks known (check all that apply)
+          </p>
+          <label
+            ><input type="checkbox" name="cbox" id="c" value="C" /> C</label
+          >
+          <label
+            ><input type="checkbox" name="cbox" id="C++" value="C++" />
+            C++</label
+          >
+          <label
+            ><input type="checkbox" name="cbox" id="C#" value="C#" /> C#</label
+          >
+          <label
+            ><input type="checkbox" name="cbox" id="Java" value="Java" />
+            Java</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              name="cbox"
+              id="JavaScript"
+              value="JavaScript"
+            />
+            JavaScript</label
+          >
+          <label
+            ><input type="checkbox" name="cbox" id="Phyton" value="Phyton" />
+            Phyton</label
+          >
+        </div>
+        <div class="textarea">
+          <p class="form__paragraph">Any comments or suggestions</p>
+          <textarea rows="3" cols="40"></textarea>
+        </div>
+        <button class="form__submit">Submit</button>
+      </div>
+    </form>
+    <script src="scripts.js"></script>
+  </body>
+</html>
