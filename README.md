@@ -6,7 +6,7 @@ Creacción de un formulario básico que muestra los datos extraidos por consola.
 ![image](https://user-images.githubusercontent.com/116892825/205502531-a0695325-ccde-4706-b6a8-e1a3e46772ed.png)
 
 ## Versión interactiva
-![image](https://user-images.githubusercontent.com/116892825/205502662-5db64b38-cd64-4544-9f6f-4cd5a890a449.png)
+![image](https://user-images.githubusercontent.com/116892825/205502694-572e094f-d20f-4ee7-a674-f3d5bcf9f548.png)
 
 
 ## Versión movil
